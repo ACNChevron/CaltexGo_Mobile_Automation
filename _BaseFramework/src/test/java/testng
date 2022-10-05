@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="false" name="Suite">
   <test name="Test">
-  	<parameter name="deviceName" value="vivo_1811"/>
+  	<parameter name="deviceID" value="BrowserStack"/>
     <classes>
       <class name="tests.LoginTests"/>
     </classes>
