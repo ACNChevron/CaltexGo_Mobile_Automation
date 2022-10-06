@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="deviceID" value="BrowserStack"/>
+    <classes>
+      <class name="tests.LoginTests">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="invalidUserName"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- tests.LoginTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
