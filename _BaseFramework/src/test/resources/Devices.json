@@ -1,6 +1,6 @@
 {
 	"vivo_1811": {
-    	"platformName":"Android",
+		"platformName":"Android",
 		"udid":"c744264a",
 		"automationName":"UiAutomator2",
 		"appPackage":"com.swaglabsmobileapp",
