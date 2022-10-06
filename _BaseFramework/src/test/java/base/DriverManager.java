@@ -13,7 +13,9 @@ import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.IOSElement;
 import utils.JsonParser;
 
+@SuppressWarnings("rawtypes")
 public class DriverManager {
+
 	private static final ThreadLocal<AppiumDriver> driver = new ThreadLocal<>();
 	
 	public static AppiumDriver getDriver() {return driver.get();}
