@@ -13,8 +13,6 @@
 		"os_version":"7.0",
 		"project":"My First Project",
 		"build":"My First Build",
-		"name":"Bstack-[Java] SwagLabs Test",
-		"app":"bs://4691059c48434d56044939f6e56c9fcc5b5f604a",
-		"url":"https://patriciocalacasa_Avpmz9:DKeWd2WRy8pZ3gAARpW6@hub-cloud.browserstack.com/wd/hub"
+		"name":"Bstack-[Java] SwagLabs Test"
 	}
 }
