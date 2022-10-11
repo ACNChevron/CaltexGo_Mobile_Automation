@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="61285" started-at="2022-10-07T18:10:13 GMT+08:00" finished-at="2022-10-07T18:11:14 GMT+08:00">
+  <suite name="Suite" duration-ms="65866" started-at="2022-10-11T19:20:58 GMT+08:00" finished-at="2022-10-11T19:22:04 GMT+08:00">
     <groups>
     </groups>
-    <test name="Test" duration-ms="61285" started-at="2022-10-07T18:10:13 GMT+08:00" finished-at="2022-10-07T18:11:14 GMT+08:00">
+    <test name="Test" duration-ms="65866" started-at="2022-10-11T19:20:58 GMT+08:00" finished-at="2022-10-11T19:22:04 GMT+08:00">
       <class name="tests.LoginTests">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:tests.LoginTests@2833cc44]" name="beforeTest" is-config="true" duration-ms="53342" started-at="2022-10-07T18:10:13 GMT+08:00" finished-at="2022-10-07T18:11:06 GMT+08:00">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:tests.LoginTests@2833cc44]" name="beforeTest" is-config="true" duration-ms="58043" started-at="2022-10-11T19:20:58 GMT+08:00" finished-at="2022-10-11T19:21:56 GMT+08:00">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="invalidUserName()[pri:0, instance:tests.LoginTests@2833cc44]" name="invalidUserName" duration-ms="5717" started-at="2022-10-07T18:11:06 GMT+08:00" finished-at="2022-10-07T18:11:12 GMT+08:00">
+        <test-method status="PASS" signature="invalidUserName()[pri:0, instance:tests.LoginTests@2833cc44]" name="invalidUserName" duration-ms="5925" started-at="2022-10-11T19:21:56 GMT+08:00" finished-at="2022-10-11T19:22:02 GMT+08:00">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUserName -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:tests.LoginTests@2833cc44]" name="quit" is-config="true" duration-ms="2168" started-at="2022-10-07T18:11:12 GMT+08:00" finished-at="2022-10-07T18:11:14 GMT+08:00">
+        <test-method status="PASS" signature="quit()[pri:0, instance:tests.LoginTests@2833cc44]" name="quit" is-config="true" duration-ms="1862" started-at="2022-10-11T19:22:02 GMT+08:00" finished-at="2022-10-11T19:22:04 GMT+08:00">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

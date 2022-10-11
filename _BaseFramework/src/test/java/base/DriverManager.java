@@ -47,11 +47,15 @@ public class DriverManager {
 		System.out.println("Desired Capabilities was declared.");
 		
 		//Set Desired Capabilities
+		caps.setCapability("build", System.getenv("BROWSERSTACK_BUILD_NAME"));
+		
 		for (Object key : keyDeviceObj) {
 			if(key.toString().equals("url")) {
 				System.out.println("URL from Devices.json '"+deviceObj.get(key)+"' was stored.");
 			} else if (key.toString().equals("app")){
 				System.out.println("App from Devices.json '"+deviceObj.get(key)+"' was stored.");
+			} else if (key.toString().equals("build")) {
+				caps.setCapability("build", System.getenv("BROWSERSTACK_BUILD_NAME"));
 			} else {
 				caps.setCapability(key.toString(), deviceObj.get(key).toString());
 				System.out.println("Capability '"+key.toString()+":"+deviceObj.get(key)+"' was set.");				
